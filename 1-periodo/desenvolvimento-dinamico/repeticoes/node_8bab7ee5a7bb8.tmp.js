@@ -10,7 +10,7 @@ var carros = [
   
   let totalPrecos = 0;
   
-  for (let i = 0; i < carros.length; i++) {
+  for (let i = 0; i < carros.length; i) {
   
     var carro = carros[i];
   
