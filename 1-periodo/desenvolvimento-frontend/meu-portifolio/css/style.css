@@ -1,0 +1,90 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Cores */
+.bg-dark {
+    background-color: #222; /* Verde oliva escuro */
+}
+.text-white {
+    color: #fff;
+}
+.text-gray {
+    color: #555;
+}
+
+/* Elementos */
+.section-title {
+    font-weight: bold;
+    text-align: center; /* Centraliza os títulos */
+}
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #222;
+    margin: 0 auto;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menu */
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    .nav-icons {
+        flex-direction: column;
+    }
+}
+p {
+    text-align: center;
+}
